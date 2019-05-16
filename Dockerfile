@@ -6,7 +6,9 @@ RUN chown -R node:node /base
 WORKDIR /base
 USER node
 
-RUN npm i fusuma -D
+ARG version=1.1.0
+
+RUN npm i fusuma@$version -D --loglevel verbose
 RUN npx fusuma init
 
 ENTRYPOINT ["npx", "fusuma"]
