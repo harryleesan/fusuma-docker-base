@@ -1,16 +1,7 @@
 # fusuma-docker-base
 
 ## Introduction
-This is a naive implementation of getting **fusuma** working merely through
-docker.
-
-## Build
-
-To build a specific version of fusuma:
-
-```bash
-docker build -t halosan/fusuma --build-arg version=1.1.0 .
-```
+This is a naive implementation of getting **fusuma** working through docker.
 
 ## Usage
 
@@ -37,3 +28,12 @@ docker build -t halosan/fusuma --build-arg version=1.1.0 .
   docker kill frosty_aryabhata
   # Now you can run the TL;DR command
   ```
+
+## Build
+
+### To build a specific version of fusuma:
+
+```bash
+docker build -t halosan/fusuma --build-arg version=1.1.0 .
+```
+
