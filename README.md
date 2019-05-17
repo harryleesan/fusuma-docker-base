@@ -3,6 +3,8 @@
 ## Introduction
 This is a naive implementation of getting **fusuma** working through docker.
 
+![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/halosan/fusuma.svg?style=flat-square)
+
 ## Usage
 
 ### TL;DR
