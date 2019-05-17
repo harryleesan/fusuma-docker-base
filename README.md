@@ -12,11 +12,13 @@ From the parent directory with the `slides` directory (intended to run **fusuma*
   ```bash
   docker run -d -p 8080:8080 \
   -v $(pwd)/slides:/base/slides \
+  -v $(pwd)/images:/base/images \
   -v $(pwd)/.fusumarc.yml:/base/.fusumarc.yml \
   halosan/fusuma:latest
   ```
 
-To get the `.fusumarc.yml`, check the section below.
+  1. Mount **all** the folders that you will need to `/base/`
+  2. To get the `.fusumarc.yml`, see the section below.
 
 
 ### To get the default `.fusumarc.yml`
