@@ -39,6 +39,6 @@ From the parent directory with the `slides` directory (intended to run **fusuma*
 ### To build a specific version of fusuma:
 
 ```bash
-docker build -t halosan/fusuma --build-arg version=1.1.0 .
+docker build -t halosan/fusuma --build-arg version=1.15.1 .
 ```
 
