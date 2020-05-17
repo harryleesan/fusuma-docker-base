@@ -1,0 +1,14 @@
+{
+  "name": "ExamplePresentation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.4.1"
+  },
+  "devDependencies": {
+    "fusuma": "^1.15.1"
+  }
+}

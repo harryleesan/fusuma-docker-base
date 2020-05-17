@@ -16,6 +16,7 @@ From the parent directory with the `slides` directory (intended to run **fusuma*
   -v $(pwd)/slides:/base/slides \
   -v $(pwd)/images:/base/images \
   -v $(pwd)/.fusumarc.yml:/base/.fusumarc.yml \
+  -v $(pwd)/package.json:/base/package.json \
   halosan/fusuma:latest
   ```
 
