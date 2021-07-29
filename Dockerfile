@@ -1,4 +1,4 @@
-FROM node:13.8-stretch
+FROM node:14.17-buster
 
 RUN apt-get update  && apt-get install -y \
 	libglu1
